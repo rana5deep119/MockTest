@@ -6,7 +6,7 @@ import {
   StyleSheet,
   Image,
   TouchableOpacity,
-  Alert
+  
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -16,7 +16,7 @@ const data = [
     title: 'Body Systems',
     episodeCount: 12,
     updatedDate: '3 Jun',
-    mainImage: require('./assets/lungs.png'),
+    mainImage: { uri: 'https://www.shutterstock.com/image-vector/lung-cancer-diagram-detail-illustration-260nw-308751308.jpg' },
     miniList: [
       { emoji: '❤️', text: 'How your heart works' },
       { emoji: '🫁', text: 'Breathing and the lungs' },
@@ -28,7 +28,7 @@ const data = [
     title: 'Medical Conditions',
     episodeCount: 27,
     updatedDate: '1 Jun',
-    mainImage: require('./assets/clipboard.png'),
+    mainImage: { uri: 'https://www.shutterstock.com/image-vector/lung-cancer-diagram-detail-illustration-260nw-308751308.jpg' },
     miniList: [
       { emoji: '🩸', text: 'Managing high blood press...' },
       { emoji: '😔', text: 'Understanding depression' },
@@ -40,7 +40,7 @@ const data = [
     title: 'Diagnostics',
     episodeCount: 12,
     updatedDate: '29 May',
-    mainImage: require('./assets/magnifying_glass.png'),
+     mainImage: { uri: 'https://www.shutterstock.com/image-vector/lung-cancer-diagram-detail-illustration-260nw-308751308.jpg' },
     miniList: [
       { emoji: '📊', text: 'Understanding your ECG r...' },
       { emoji: '🏥', text: 'What an MRI can tell you' },

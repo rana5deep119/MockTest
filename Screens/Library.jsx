@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../components/Header'
 import SearchBar from '../components/SearchBar'
 import Category from '../components/Category'
+import CategoriesList from '../components/CategoriesList'
 
 
 const Library = () => {
@@ -23,7 +24,7 @@ const Library = () => {
         <View  style={{flex:1, marginRight:'auto',marginLeft:'auto', justifyContent:'space-evenly'}}>
              <Category/>
         </View>
-
+<CategoriesList/>
     </View>
   )
 }
